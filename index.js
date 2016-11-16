@@ -1,11 +1,4 @@
 module.exports = {
-    'plugins': ['react'],
-    'settings': {
-        'react': {
-            'pragma': 'React',
-            'version': '15.0'
-        }
-    },
     'parser': 'babel-eslint',
     'parserOptions': {
         'ecmaVersion': 6,
@@ -158,9 +151,6 @@ module.exports = {
         'prefer-rest-params': [2],
         'prefer-spread': [2],
         'template-curly-spacing': [2, 'never'],
-        'yield-star-spacing': [2, 'before'],
-        'react/jsx-uses-react': [2],
-        'react/jsx-uses-vars': [2],
-        'react/jsx-no-undef': [2]
+        'yield-star-spacing': [2, 'before']
     }
 };
