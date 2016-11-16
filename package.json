@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kujon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,15 @@
   },
   "author": "Jakub Korzeniowski",
   "license": "ISC",
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "bugs": {
     "url": "https://github.com/kujon/eslint-config-kujon/issues"
   },
-  "homepage": "https://github.com/kujon/eslint-config-kujon#readme"
+  "homepage": "https://github.com/kujon/eslint-config-kujon#readme",
+  "dependencies": {
+    "babel-eslint": "^7.1.0"
+  }
 }
